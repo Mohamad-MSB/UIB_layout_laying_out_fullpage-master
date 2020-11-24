@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #1a1a1a;
+}
+main{
+    width: 1000px;
+    height: 1000px;
+    background-color: #4b4b4b;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    width:calc(100% - 20px);
+    height: 50px;
+    background-color: #000;
+    color: white;
+    padding:4px 10px;
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+}
+nav a{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+nav a:hover, aside a:hover{
+    color: tomato;
+}
+aside{
+    width: 15%;
+    height: 880px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    
+}
+aside a{
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    text-align: center;
+    color: black;
+}
+.container{
+    position: absolute;
+    top: 120px;
+    left: 18%;
+
+    display: flex;
+    flex-flow: row wrap;
+    
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+}
+.box div:nth-child(2){
+    display: inline-block;
+    padding: 10px 0;
+    background-color: #1a1a1a;
+    
+}
+.box div:nth-child(1){
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
